@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC DO AQUARISTA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+
+<body>
+    <header>
+        <h1>ABC DO AQUARISTA</h1>
+        <nav>
+            <ul>
+                <li><a href="#produto">Produto</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="produto" class="produto">
+        <h2>Microvida</h2>
+        <img src="https://cdn.awsli.com.br/600x450/724/724789/produto/66350210c94138e67e.jpg" alt="Imagem do produto">
+        <p>O seu aquário é muito mais do que peixes, corais e rochas. Dentro desse ecossistema existem milhões de micro animais que promovem o equilíbrio, a saúde e servem de alimento vivo para seus habitantes, mesmo que você não os veja. Porém esses pequenos seres nem sempre estão presentes em quantidade desejada, seja porque seu aquário é novo, seja porque é muito velho (a chamada old tank syndrome) ou teve algum tipo de problema que causou a redução da biota do sistema. Por isso é importante introduzir microvida de tempos em tempos no aquário para garantir que esse equilíbrio seja mantido constante.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="processar.php" method="POST">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="cidade" placeholder="Cidade" required>
+            <input type="text" name="estado" placeholder="Estado" required>
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 ABC DO AQUARISTA. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
